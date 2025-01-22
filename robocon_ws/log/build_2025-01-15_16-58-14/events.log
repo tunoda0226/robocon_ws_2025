@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000754] (joy_communication) JobQueued: {'identifier': 'joy_communication', 'dependencies': OrderedDict()}
+[0.000809] (joy_package) JobQueued: {'identifier': 'joy_package', 'dependencies': OrderedDict()}
+[0.000824] (joy_communication) JobStarted: {'identifier': 'joy_communication'}
+[0.010580] (joy_package) JobStarted: {'identifier': 'joy_package'}
+[0.100142] (-) TimerEvent: {}
+[0.201672] (-) TimerEvent: {}
+[0.219277] (joy_package) JobProgress: {'identifier': 'joy_package', 'progress': 'cmake'}
+[0.220040] (joy_package) Command: {'cmd': ['/usr/bin/cmake', '/home/tunotuno/robocon_ws/src/joy_package', '-DCMAKE_INSTALL_PREFIX=/home/tunotuno/robocon_ws/install/joy_package'], 'cwd': '/home/tunotuno/robocon_ws/build/joy_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tunotuno'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tunotuno'), ('OLDPWD', '/home/tunotuno'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2721'), ('UNZIP', '-O CP932'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tunotuno'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tunotuno'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tunotuno-VirtualBox:@/tmp/.ICE-unix/2486,unix/tunotuno-VirtualBox:/tmp/.ICE-unix/2486'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c3b54552_ce0a_4ccc_8757_995a1fe909fb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Q9F4Z2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.113'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tunotuno/robocon_ws/build/joy_package'), ('ZIPINFO', '-O CP932'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.302879] (-) TimerEvent: {}
+[0.403279] (-) TimerEvent: {}
+[0.420340] (joy_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.507000] (-) TimerEvent: {}
+[0.592131] (joy_communication) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/joy_communication', 'build', '--build-base', '/home/tunotuno/robocon_ws/build/joy_communication/build', 'install', '--record', '/home/tunotuno/robocon_ws/build/joy_communication/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tunotuno/robocon_ws/src/joy_communication', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tunotuno', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tunotuno', 'OLDPWD': '/home/tunotuno', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2721', 'UNZIP': '-O CP932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tunotuno', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tunotuno', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tunotuno-VirtualBox:@/tmp/.ICE-unix/2486,unix/tunotuno-VirtualBox:/tmp/.ICE-unix/2486', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c3b54552_ce0a_4ccc_8757_995a1fe909fb', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Q9F4Z2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tunotuno/robocon_ws/build/joy_communication', 'ZIPINFO': '-O CP932', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tunotuno/robocon_ws/build/joy_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.601599] (joy_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.616350] (joy_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.616496] (-) TimerEvent: {}
+[0.700596] (joy_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.706409] (joy_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.707455] (joy_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.708679] (joy_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.713904] (joy_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.716657] (-) TimerEvent: {}
+[0.770010] (joy_communication) StdoutLine: {'line': b'running egg_info\n'}
+[0.770507] (joy_communication) StdoutLine: {'line': b'creating ../../build/joy_communication/joy_communication.egg-info\n'}
+[0.770682] (joy_communication) StdoutLine: {'line': b'writing ../../build/joy_communication/joy_communication.egg-info/PKG-INFO\n'}
+[0.770861] (joy_communication) StdoutLine: {'line': b'writing dependency_links to ../../build/joy_communication/joy_communication.egg-info/dependency_links.txt\n'}
+[0.771010] (joy_communication) StdoutLine: {'line': b'writing entry points to ../../build/joy_communication/joy_communication.egg-info/entry_points.txt\n'}
+[0.771151] (joy_communication) StdoutLine: {'line': b'writing requirements to ../../build/joy_communication/joy_communication.egg-info/requires.txt\n'}
+[0.771233] (joy_communication) StdoutLine: {'line': b'writing top-level names to ../../build/joy_communication/joy_communication.egg-info/top_level.txt\n'}
+[0.771435] (joy_communication) StdoutLine: {'line': b"writing manifest file '../../build/joy_communication/joy_communication.egg-info/SOURCES.txt'\n"}
+[0.773076] (joy_communication) StdoutLine: {'line': b"reading manifest file '../../build/joy_communication/joy_communication.egg-info/SOURCES.txt'\n"}
+[0.773710] (joy_communication) StdoutLine: {'line': b"writing manifest file '../../build/joy_communication/joy_communication.egg-info/SOURCES.txt'\n"}
+[0.773877] (joy_communication) StdoutLine: {'line': b'running build\n'}
+[0.774027] (joy_communication) StdoutLine: {'line': b'running build_py\n'}
+[0.774231] (joy_communication) StdoutLine: {'line': b'creating /home/tunotuno/robocon_ws/build/joy_communication/build\n'}
+[0.774518] (joy_communication) StdoutLine: {'line': b'creating /home/tunotuno/robocon_ws/build/joy_communication/build/lib\n'}
+[0.774575] (joy_communication) StdoutLine: {'line': b'creating /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication\n'}
+[0.774618] (joy_communication) StdoutLine: {'line': b'copying joy_communication/joy_publisher.py -> /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication\n'}
+[0.774733] (joy_communication) StdoutLine: {'line': b'copying joy_communication/joy_subscriber.py -> /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication\n'}
+[0.774795] (joy_communication) StdoutLine: {'line': b'copying joy_communication/__init__.py -> /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication\n'}
+[0.774867] (joy_communication) StdoutLine: {'line': b'running install\n'}
+[0.774962] (joy_communication) StdoutLine: {'line': b'running install_lib\n'}
+[0.775517] (joy_communication) StdoutLine: {'line': b'creating /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication\n'}
+[0.775617] (joy_communication) StdoutLine: {'line': b'copying /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication/joy_publisher.py -> /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication\n'}
+[0.775727] (joy_communication) StdoutLine: {'line': b'copying /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication/joy_subscriber.py -> /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication\n'}
+[0.775880] (joy_communication) StdoutLine: {'line': b'copying /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication/__init__.py -> /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication\n'}
+[0.776141] (joy_communication) StdoutLine: {'line': b'byte-compiling /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication/joy_publisher.py to joy_publisher.cpython-310.pyc\n'}
+[0.776628] (joy_communication) StdoutLine: {'line': b'byte-compiling /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication/joy_subscriber.py to joy_subscriber.cpython-310.pyc\n'}
+[0.776837] (joy_communication) StdoutLine: {'line': b'byte-compiling /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication/__init__.py to __init__.cpython-310.pyc\n'}
+[0.776989] (joy_communication) StdoutLine: {'line': b'running install_data\n'}
+[0.777088] (joy_communication) StdoutLine: {'line': b'creating /home/tunotuno/robocon_ws/install/joy_communication/share\n'}
+[0.777218] (joy_communication) StdoutLine: {'line': b'creating /home/tunotuno/robocon_ws/install/joy_communication/share/ament_index\n'}
+[0.777414] (joy_communication) StdoutLine: {'line': b'creating /home/tunotuno/robocon_ws/install/joy_communication/share/ament_index/resource_index\n'}
+[0.777550] (joy_communication) StdoutLine: {'line': b'creating /home/tunotuno/robocon_ws/install/joy_communication/share/ament_index/resource_index/packages\n'}
+[0.777614] (joy_communication) StdoutLine: {'line': b'copying resource/joy_communication -> /home/tunotuno/robocon_ws/install/joy_communication/share/ament_index/resource_index/packages\n'}
+[0.777673] (joy_communication) StdoutLine: {'line': b'creating /home/tunotuno/robocon_ws/install/joy_communication/share/joy_communication\n'}
+[0.777725] (joy_communication) StdoutLine: {'line': b'copying package.xml -> /home/tunotuno/robocon_ws/install/joy_communication/share/joy_communication\n'}
+[0.777820] (joy_communication) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.779042] (joy_communication) StdoutLine: {'line': b'Copying ../../build/joy_communication/joy_communication.egg-info to /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication-0.0.0-py3.10.egg-info\n'}
+[0.779774] (joy_communication) StdoutLine: {'line': b'running install_scripts\n'}
+[0.796219] (joy_communication) StdoutLine: {'line': b'Installing joy_publisher script to /home/tunotuno/robocon_ws/install/joy_communication/lib/joy_communication\n'}
+[0.796670] (joy_communication) StdoutLine: {'line': b'Installing joy_subscriber script to /home/tunotuno/robocon_ws/install/joy_communication/lib/joy_communication\n'}
+[0.796793] (joy_communication) StdoutLine: {'line': b"writing list of installed files to '/home/tunotuno/robocon_ws/build/joy_communication/install.log'\n"}
+[0.798415] (joy_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.804479] (joy_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.804710] (joy_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.805090] (joy_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.817360] (-) TimerEvent: {}
+[0.822875] (joy_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.826962] (joy_communication) CommandEnded: {'returncode': 0}
+[0.852192] (joy_communication) JobEnded: {'identifier': 'joy_communication', 'rc': 0}
+[0.919088] (-) TimerEvent: {}
+[0.971950] (joy_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.026697] (-) TimerEvent: {}
+[1.081040] (joy_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.132179] (-) TimerEvent: {}
+[1.162423] (joy_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.184864] (joy_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.200763] (joy_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.225555] (joy_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.233224] (-) TimerEvent: {}
+[1.251224] (joy_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.330200] (joy_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.335042] (joy_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.335172] (-) TimerEvent: {}
+[1.435558] (-) TimerEvent: {}
+[1.456162] (joy_package) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.482218] (joy_package) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.518030] (joy_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.532265] (joy_package) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.536635] (-) TimerEvent: {}
+[1.625792] (joy_package) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.626288] (joy_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.637179] (-) TimerEvent: {}
+[1.706182] (joy_package) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.707217] (joy_package) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.737471] (-) TimerEvent: {}
+[1.800831] (joy_package) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.843987] (-) TimerEvent: {}
+[1.855938] (joy_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.895355] (joy_package) StderrLine: {'line': b"Error parsing '/home/tunotuno/robocon_ws/src/joy_package/package.xml':\n"}
+[1.929167] (joy_package) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.929548] (joy_package) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[1.929652] (joy_package) StderrLine: {'line': b'    main()\n'}
+[1.929700] (joy_package) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[1.929740] (joy_package) StderrLine: {'line': b'    raise e\n'}
+[1.929776] (joy_package) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[1.929812] (joy_package) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[1.929856] (joy_package) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[1.930312] (joy_package) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[1.930510] (joy_package) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[1.930631] (joy_package) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[1.930739] (joy_package) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/tunotuno/robocon_ws/src/joy_package/package.xml':\n"}
+[1.930923] (joy_package) StderrLine: {'line': b'Invalid email "tunoda0226" for person "tunotuno"\n'}
+[1.944298] (-) TimerEvent: {}
+[1.949320] (joy_package) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.949490] (joy_package) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.949540] (joy_package) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.949581] (joy_package) StderrLine: {'line': b'  /home/tunotuno/robocon_ws/src/joy_package/package.xml\n'}
+[1.949618] (joy_package) StderrLine: {'line': b'  /home/tunotuno/robocon_ws/build/joy_package/ament_cmake_core/package.cmake)\n'}
+[1.949653] (joy_package) StderrLine: {'line': b'  returned error code 1\n'}
+[1.949786] (joy_package) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.949847] (joy_package) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.949903] (joy_package) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[1.949966] (joy_package) StderrLine: {'line': b'  CMakeLists.txt:40 (ament_lint_auto_find_test_dependencies)\n'}
+[1.950021] (joy_package) StderrLine: {'line': b'\n'}
+[1.950074] (joy_package) StderrLine: {'line': b'\x1b[0m\n'}
+[1.950126] (joy_package) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.950204] (joy_package) StdoutLine: {'line': b'See also "/home/tunotuno/robocon_ws/build/joy_package/CMakeFiles/CMakeOutput.log".\n'}
+[1.961065] (joy_package) CommandEnded: {'returncode': 1}
+[1.961969] (joy_package) JobEnded: {'identifier': 'joy_package', 'rc': 1}
+[1.963433] (-) EventReactorShutdown: {}

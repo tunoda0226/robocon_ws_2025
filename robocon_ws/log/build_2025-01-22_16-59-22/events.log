@@ -1,0 +1,46 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (joy_communication) JobQueued: {'identifier': 'joy_communication', 'dependencies': OrderedDict()}
+[0.000923] (joy_communication) JobStarted: {'identifier': 'joy_communication'}
+[0.099177] (-) TimerEvent: {}
+[0.201332] (-) TimerEvent: {}
+[0.304792] (-) TimerEvent: {}
+[0.407168] (-) TimerEvent: {}
+[0.515015] (-) TimerEvent: {}
+[0.615455] (-) TimerEvent: {}
+[0.720116] (-) TimerEvent: {}
+[0.822470] (-) TimerEvent: {}
+[0.922931] (-) TimerEvent: {}
+[1.023825] (-) TimerEvent: {}
+[1.126586] (-) TimerEvent: {}
+[1.227271] (-) TimerEvent: {}
+[1.328150] (-) TimerEvent: {}
+[1.340873] (joy_communication) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/joy_communication', 'build', '--build-base', '/home/tunotuno/robocon_ws/build/joy_communication/build', 'install', '--record', '/home/tunotuno/robocon_ws/build/joy_communication/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tunotuno/robocon_ws/src/joy_communication', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tunotuno', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/tunotuno', 'OLDPWD': '/home/tunotuno', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '10024', 'SYSTEMD_EXEC_PID': '10216', 'UNZIP': '-O CP932', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11018', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'tunotuno', 'JOURNAL_STREAM': '8:14177', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tunotuno', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/tunotuno/.local/bin:/opt/ros/humble/bin:/home/tunotuno/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tunotuno-VirtualBox:@/tmp/.ICE-unix/10184,unix/tunotuno-VirtualBox:/tmp/.ICE-unix/10184', 'INVOCATION_ID': 'a3b49773d0d949f5ad4b61699068017f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.2S1U02', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:3bd165a6-c10a-46ff-afd6-f27ff96563d6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tunotuno/robocon_ws/build/joy_communication', 'ZIPINFO': '-O CP932', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tunotuno/robocon_ws/build/joy_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.429753] (-) TimerEvent: {}
+[1.532682] (-) TimerEvent: {}
+[1.636526] (-) TimerEvent: {}
+[1.737908] (-) TimerEvent: {}
+[1.838710] (-) TimerEvent: {}
+[1.864808] (joy_communication) StdoutLine: {'line': b'running egg_info\n'}
+[1.866117] (joy_communication) StdoutLine: {'line': b'writing ../../build/joy_communication/joy_communication.egg-info/PKG-INFO\n'}
+[1.866924] (joy_communication) StdoutLine: {'line': b'writing dependency_links to ../../build/joy_communication/joy_communication.egg-info/dependency_links.txt\n'}
+[1.867173] (joy_communication) StdoutLine: {'line': b'writing entry points to ../../build/joy_communication/joy_communication.egg-info/entry_points.txt\n'}
+[1.867487] (joy_communication) StdoutLine: {'line': b'writing requirements to ../../build/joy_communication/joy_communication.egg-info/requires.txt\n'}
+[1.867633] (joy_communication) StdoutLine: {'line': b'writing top-level names to ../../build/joy_communication/joy_communication.egg-info/top_level.txt\n'}
+[1.870901] (joy_communication) StdoutLine: {'line': b"reading manifest file '../../build/joy_communication/joy_communication.egg-info/SOURCES.txt'\n"}
+[1.872847] (joy_communication) StdoutLine: {'line': b"writing manifest file '../../build/joy_communication/joy_communication.egg-info/SOURCES.txt'\n"}
+[1.873256] (joy_communication) StdoutLine: {'line': b'running build\n'}
+[1.873430] (joy_communication) StdoutLine: {'line': b'running build_py\n'}
+[1.873936] (joy_communication) StdoutLine: {'line': b'running install\n'}
+[1.874625] (joy_communication) StdoutLine: {'line': b'running install_lib\n'}
+[1.877033] (joy_communication) StdoutLine: {'line': b'running install_data\n'}
+[1.877462] (joy_communication) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.881608] (joy_communication) StdoutLine: {'line': b"removing '/home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.882478] (joy_communication) StdoutLine: {'line': b'Copying ../../build/joy_communication/joy_communication.egg-info to /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication-0.0.0-py3.10.egg-info\n'}
+[1.884141] (joy_communication) StdoutLine: {'line': b'running install_scripts\n'}
+[1.927775] (joy_communication) StdoutLine: {'line': b'Installing joy_publisher script to /home/tunotuno/robocon_ws/install/joy_communication/lib/joy_communication\n'}
+[1.928318] (joy_communication) StdoutLine: {'line': b'Installing joy_subscriber script to /home/tunotuno/robocon_ws/install/joy_communication/lib/joy_communication\n'}
+[1.928813] (joy_communication) StdoutLine: {'line': b"writing list of installed files to '/home/tunotuno/robocon_ws/build/joy_communication/install.log'\n"}
+[1.945282] (-) TimerEvent: {}
+[1.987562] (joy_communication) CommandEnded: {'returncode': 0}
+[2.007388] (joy_communication) JobEnded: {'identifier': 'joy_communication', 'rc': 0}
+[2.008708] (-) EventReactorShutdown: {}

@@ -1,0 +1,5 @@
+  File "/home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication/joy_subscriber.py", line 23
+    can_data = [!] + axes_data + buttons_data  # ASCII value of '!' is 33
+                ^
+SyntaxError: invalid syntax
+

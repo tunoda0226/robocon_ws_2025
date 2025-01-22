@@ -1,0 +1,4 @@
+[console_scripts]
+joy_publisher = joy_communication.joy_publisher:main
+joy_subscriber = joy_communication.joy_subscriber:main
+

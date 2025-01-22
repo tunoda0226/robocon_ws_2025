@@ -1,0 +1,43 @@
+[0.593s] Invoking command in '/home/tunotuno/robocon_ws/src/joy_communication': PYTHONPATH=/home/tunotuno/robocon_ws/build/joy_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_communication build --build-base /home/tunotuno/robocon_ws/build/joy_communication/build install --record /home/tunotuno/robocon_ws/build/joy_communication/install.log --single-version-externally-managed install_data
+[0.769s] running egg_info
+[0.770s] creating ../../build/joy_communication/joy_communication.egg-info
+[0.770s] writing ../../build/joy_communication/joy_communication.egg-info/PKG-INFO
+[0.770s] writing dependency_links to ../../build/joy_communication/joy_communication.egg-info/dependency_links.txt
+[0.770s] writing entry points to ../../build/joy_communication/joy_communication.egg-info/entry_points.txt
+[0.770s] writing requirements to ../../build/joy_communication/joy_communication.egg-info/requires.txt
+[0.770s] writing top-level names to ../../build/joy_communication/joy_communication.egg-info/top_level.txt
+[0.771s] writing manifest file '../../build/joy_communication/joy_communication.egg-info/SOURCES.txt'
+[0.772s] reading manifest file '../../build/joy_communication/joy_communication.egg-info/SOURCES.txt'
+[0.773s] writing manifest file '../../build/joy_communication/joy_communication.egg-info/SOURCES.txt'
+[0.773s] running build
+[0.773s] running build_py
+[0.774s] creating /home/tunotuno/robocon_ws/build/joy_communication/build
+[0.774s] creating /home/tunotuno/robocon_ws/build/joy_communication/build/lib
+[0.774s] creating /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication
+[0.774s] copying joy_communication/joy_publisher.py -> /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication
+[0.774s] copying joy_communication/joy_subscriber.py -> /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication
+[0.774s] copying joy_communication/__init__.py -> /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication
+[0.774s] running install
+[0.774s] running install_lib
+[0.775s] creating /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication
+[0.775s] copying /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication/joy_publisher.py -> /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication
+[0.775s] copying /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication/joy_subscriber.py -> /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication
+[0.775s] copying /home/tunotuno/robocon_ws/build/joy_communication/build/lib/joy_communication/__init__.py -> /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication
+[0.775s] byte-compiling /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication/joy_publisher.py to joy_publisher.cpython-310.pyc
+[0.776s] byte-compiling /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication/joy_subscriber.py to joy_subscriber.cpython-310.pyc
+[0.776s] byte-compiling /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication/__init__.py to __init__.cpython-310.pyc
+[0.776s] running install_data
+[0.776s] creating /home/tunotuno/robocon_ws/install/joy_communication/share
+[0.777s] creating /home/tunotuno/robocon_ws/install/joy_communication/share/ament_index
+[0.777s] creating /home/tunotuno/robocon_ws/install/joy_communication/share/ament_index/resource_index
+[0.777s] creating /home/tunotuno/robocon_ws/install/joy_communication/share/ament_index/resource_index/packages
+[0.777s] copying resource/joy_communication -> /home/tunotuno/robocon_ws/install/joy_communication/share/ament_index/resource_index/packages
+[0.777s] creating /home/tunotuno/robocon_ws/install/joy_communication/share/joy_communication
+[0.777s] copying package.xml -> /home/tunotuno/robocon_ws/install/joy_communication/share/joy_communication
+[0.777s] running install_egg_info
+[0.778s] Copying ../../build/joy_communication/joy_communication.egg-info to /home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages/joy_communication-0.0.0-py3.10.egg-info
+[0.779s] running install_scripts
+[0.796s] Installing joy_publisher script to /home/tunotuno/robocon_ws/install/joy_communication/lib/joy_communication
+[0.796s] Installing joy_subscriber script to /home/tunotuno/robocon_ws/install/joy_communication/lib/joy_communication
+[0.796s] writing list of installed files to '/home/tunotuno/robocon_ws/build/joy_communication/install.log'
+[0.827s] Invoked command in '/home/tunotuno/robocon_ws/src/joy_communication' returned '0': PYTHONPATH=/home/tunotuno/robocon_ws/build/joy_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tunotuno/robocon_ws/install/joy_communication/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/joy_communication build --build-base /home/tunotuno/robocon_ws/build/joy_communication/build install --record /home/tunotuno/robocon_ws/build/joy_communication/install.log --single-version-externally-managed install_data

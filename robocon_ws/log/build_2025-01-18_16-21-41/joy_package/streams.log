@@ -1,0 +1,44 @@
+[0.517s] Invoking command in '/home/tunotuno/robocon_ws/build/joy_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tunotuno/robocon_ws/src/joy_package -DCMAKE_INSTALL_PREFIX=/home/tunotuno/robocon_ws/install/joy_package
+[0.539s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.770s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.827s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.833s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.845s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.867s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.894s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.968s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.970s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.173s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.300s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.381s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.634s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.634s] -- Configured cppcheck include dirs: /home/tunotuno/robocon_ws/src/joy_package/include
+[1.634s] -- Configured cppcheck exclude dirs and/or files: 
+[1.637s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.641s] -- Added test 'lint_cmake' to check CMake code style
+[1.644s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.654s] -- Added test 'uncrustify' to check C / C++ code style
+[1.654s] -- Configured uncrustify additional arguments: 
+[1.657s] -- Added test 'xmllint' to check XML markup files
+[1.663s] -- Configuring done
+[1.692s] -- Generating done
+[1.705s] -- Build files have been written to: /home/tunotuno/robocon_ws/build/joy_package
+[1.726s] Invoked command in '/home/tunotuno/robocon_ws/build/joy_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tunotuno/robocon_ws/src/joy_package -DCMAKE_INSTALL_PREFIX=/home/tunotuno/robocon_ws/install/joy_package
+[1.727s] Invoking command in '/home/tunotuno/robocon_ws/build/joy_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tunotuno/robocon_ws/build/joy_package -- -j7 -l7
+[1.834s] [ 25%] [32mBuilding CXX object CMakeFiles/joy_publisher.dir/src/joy_publisher.cpp.o[0m
+[1.835s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_subscriber.dir/src/joy_subscriber.cpp.o[0m
+[33.197s] [ 75%] [32m[1mLinking CXX executable joy_subscriber[0m
+[33.568s] [100%] [32m[1mLinking CXX executable joy_publisher[0m
+[34.115s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[34.115s] (.text+0x1b): undefined reference to `main'
+[34.267s] collect2: error: ld returned 1 exit status
+[34.270s] gmake[2]: *** [CMakeFiles/joy_subscriber.dir/build.make:175: joy_subscriber] エラー 1
+[34.271s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/joy_subscriber.dir/all] エラー 2
+[34.271s] gmake[1]: *** 未完了のジョブを待っています....
+[34.355s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[34.355s] (.text+0x1b): undefined reference to `main'
+[34.505s] collect2: error: ld returned 1 exit status
+[34.508s] gmake[2]: *** [CMakeFiles/joy_publisher.dir/build.make:175: joy_publisher] エラー 1
+[34.509s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/joy_publisher.dir/all] エラー 2
+[34.510s] gmake: *** [Makefile:146: all] エラー 2
+[34.514s] Invoked command in '/home/tunotuno/robocon_ws/build/joy_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tunotuno/robocon_ws/build/joy_package -- -j7 -l7

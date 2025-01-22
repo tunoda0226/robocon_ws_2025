@@ -1,0 +1,2 @@
+Invoking command in '/home/tunotuno/robocon_ws/build/joy_package': /usr/bin/cmake /home/tunotuno/robocon_ws/src/joy_package -DCMAKE_INSTALL_PREFIX=/home/tunotuno/robocon_ws/install/joy_package
+Invoked command in '/home/tunotuno/robocon_ws/build/joy_package' returned '1': /usr/bin/cmake /home/tunotuno/robocon_ws/src/joy_package -DCMAKE_INSTALL_PREFIX=/home/tunotuno/robocon_ws/install/joy_package
