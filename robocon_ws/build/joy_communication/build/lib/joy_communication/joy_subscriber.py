@@ -24,9 +24,9 @@ class JoySubscriber(Node):
             # 右スティックでの旋回 (ω) — x軸を使って旋回
             omega = msg.axes[2]  # 右スティックのx軸が回転に対応
             
-            # lx + lyは車輪の配置に関わる定数（仮に 0.1 と設定）
-            lx = 0.1
-            ly = 0.1
+            # lx + lyは車輪の配置に関わる定数（ 0.25 と設定）
+            lx = 0.25
+            ly = 0.25
 
             # 各ホイールの速度を計算
             v1 = vx + vy + (lx + ly) * omega
@@ -39,7 +39,7 @@ class JoySubscriber(Node):
             
             # ボタンデータを送信
             # 最初の8個のボタンデータ
-            buttons_data_part1 = [int(button) for button in msg.buttons[:8]]
+            buttons_data_part1 = [int(button) for button in msg.buttons[:4]]
             can_data_part1 = motor_speeds + buttons_data_part1  # 4つのモーター速度 + 最初の8個のボタン
             
             # 長さが8バイトになるように調整
@@ -49,7 +49,7 @@ class JoySubscriber(Node):
             self.get_logger().info(f'Sent first CAN message: {can_data_part1}')
             
             # 残りの8個のボタンデータ
-            buttons_data_part2 = [int(button) for button in msg.buttons[8:16]]
+            buttons_data_part2 = [int(button) for button in msg.buttons[4:12]]
             can_data_part2 = buttons_data_part2  # 残りの8個のボタン
             
             # 長さが8バイトになるように調整

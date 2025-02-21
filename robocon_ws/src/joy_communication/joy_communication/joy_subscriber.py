@@ -39,7 +39,7 @@ class JoySubscriber(Node):
             
             # ボタンデータを送信
             # 最初の8個のボタンデータ
-            buttons_data_part1 = [int(button) for button in msg.buttons[:8]]
+            buttons_data_part1 = [int(button) for button in msg.buttons[:4]]
             can_data_part1 = motor_speeds + buttons_data_part1  # 4つのモーター速度 + 最初の8個のボタン
             
             # 長さが8バイトになるように調整
@@ -49,7 +49,7 @@ class JoySubscriber(Node):
             self.get_logger().info(f'Sent first CAN message: {can_data_part1}')
             
             # 残りの8個のボタンデータ
-            buttons_data_part2 = [int(button) for button in msg.buttons[8:16]]
+            buttons_data_part2 = [int(button) for button in msg.buttons[4:12]]
             can_data_part2 = buttons_data_part2  # 残りの8個のボタン
             
             # 長さが8バイトになるように調整
