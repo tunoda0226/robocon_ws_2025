@@ -24,9 +24,9 @@ class JoySubscriber(Node):
             # 右スティックでの旋回 (ω) — x軸を使って旋回
             omega = msg.axes[2]  # 右スティックのx軸が回転に対応
             
-            # lx + lyは車輪の配置に関わる定数（仮に 0.1 と設定）
-            lx = 0.1
-            ly = 0.1
+            # lx + lyは車輪の配置に関わる定数（ 0.25 と設定）
+            lx = 0.25
+            ly = 0.25
 
             # 各ホイールの速度を計算
             v1 = vx + vy + (lx + ly) * omega
